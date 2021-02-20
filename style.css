@@ -1,0 +1,159 @@
+body {
+    background: black;
+    font-family: 'Jura', sans-serif;
+}
+
+/* Head-Site */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: wheat;
+    text-transform: uppercase;
+}
+
+.logo {
+    display: flex;
+    margin-top: 4px;
+    margin-right: 10px;
+    padding: 10px;
+    color: wheat;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav_link {
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.5s linear;
+}
+
+.nav_link:hover {
+    color: white;
+    border-bottom: 1px solid whitesmoke;
+}
+
+ul.navigation {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 4px;
+}
+
+ul.navigation li {
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#button {
+    font-size: 17px;
+    color: black;
+    background: wheat;
+    border: 0px solid black;
+    width: 115px;
+    height: 35px;
+    margin-right: 25px;
+    font-family: 'Jura', sans-serif;
+    border-radius: 12px;
+    transition: all 0.6s;
+}
+
+#button:hover {
+    background-color: whitesmoke;
+    color: red;
+    border-radius: 0px;
+    width: 125px;
+    height: 40px;
+    font-size: 20px;
+}
+
+/* body */
+
+.body_site {
+    display: flex;
+    justify-content: space-around;
+    background-color: #353439;
+    width: auto;
+    height: 700px;
+}
+
+.heading {
+    margin-top: 190px;
+    color: wheat;
+}
+
+#text {
+    font-size: 25px;
+    color: wheat;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+#bb {
+    font-size: 20px;
+    color: black;
+    background: wheat;
+    border: 0px solid black;
+    width: 155px;
+    height: 35px;
+    margin-right: 25px;
+    font-family: 'Jura', sans-serif;
+    border-radius: 12px;
+    transition: all 0.6s;
+}
+
+#bb:hover {
+    background-color: whitesmoke;
+    color: red;
+    border-radius: 0px;
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.bba {
+    text-decoration: none;
+    color: black;
+}
+
+.photo {
+    margin-top: 120px;
+}
+
+.round {
+    border-radius: 1400px; 
+    border: 0px solid black;
+    transition: all 0.6s;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background: black;
+    height: 300px;
+}
+
+.buttons {
+    background: none;
+    border: none;
+    height: 100px;
+    margin-top: 110px;
+    justify-content: center;
+}
